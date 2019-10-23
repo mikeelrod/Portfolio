@@ -6,12 +6,46 @@
 
 <body>
 
-
 	<h1>MIKE ELROD</h1>
 	<h2>PORTFOLIO</h2>
 
 	<div>
-		web
+		<!-- 
+
+## Anchor tags (Linking to shit) ##
+An anchor tag "<a>" is used to link to a part of the page you are on, to another page on your website, or to another website. It can also link to files and emails. 
+
+The main attribute you will use for an a tag is 'href' which tells the a tag that you are going to a different page. 
+
+It follows this format.
+
+<a href="path/to/page.html">link text or <img> tag</a>
+
+The first thing you'll be annoyed by using this is that the default behavior is to underline everything and turn it blue. You'll need to update some styles: 
+
+a {
+	text-decoration: none;
+	color: black (or whatever);
+}
+
+You can check out more <a href="https://html.com/tags/a/">here</a>. (See what I did there??!)
+
+## Spacing - Margin, Borders, Padding and the joys of display. ##
+
+Step 1: search for CSS Box Model on Google images. 
+Step 2: Read this: https://medium.com/better-programming/understanding-css-display-none-block-inline-and-inline-block-63f6510df93
+
+This is the magic and pain of FE development. If you imagine sending a package, the border is the box, the margin is the packing material inside the box, and the padding is the bubble wrap around the box. Display determines how you can stack the box. Side by side or just one big stack. 
+
+For these, you will want to wrap each item in a <span> tag, then apply the margin/border/padding to that. Example below. You will want to move the style block to your css file. 
+
+-->
+<style>
+	span.nav {
+		padding-right: 10px;
+	}
+</style>
+		<span class="nav"><a href="web.htm">web</a></span>
 		video
 		graphics
 		photo
