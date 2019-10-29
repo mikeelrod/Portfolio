@@ -1,6 +1,10 @@
+body {
+	font-family: 'roboto', sans-serif;
+	font-variant: light;
+}
+
 h1 {
 	text-align: left;
-	font-family: 'roboto', sans-serif;
 	font-variant: medium;
 	font-size: 75px;
 	font-weight: 50;
@@ -8,26 +12,20 @@ h1 {
 	padding-top: 5%;
 	padding-bottom: 0%;
 	line-height: .5;
-
 }
 
 h2 {
 	text-align: left;
-	font-family: 'roboto', sans-serif;
-	font-variant: light;
 	font-size: 45px;
 	font-weight: 10;
 	padding-top: 0%;
 	padding-left: 5%;
 	line-height: 0;
-
 }
 
 h3{
 
 	text-align: left;
-	font-family: 'roboto', sans-serif;
-	font-variant: light;
 	font-size: 25px;
 	font-weight: 5;
 	padding-top: 5%;
@@ -37,8 +35,6 @@ h3{
 h4{
 
 	text-align: right;
-	font-family: 'roboto', sans-serif;
-	font-variant: light;
 	font size 12px;
 	font-weight 10;
 	font-kerning: 25px;
@@ -48,7 +44,6 @@ h4{
 
 p {
 	text-align: left;
-	font-family: 'roboto', sans-serif;
 	font-variant: regular;
 	font-size: 25px;
 	font-weight: 5;
@@ -60,8 +55,6 @@ p {
 div{
 
 	align-content: left;
-	font-family: 'roboto', sans-serif;
-	font-variant: light;
 	font-size: 25px;
 	font-weight: 5;
 	padding-top: 5%;
@@ -69,15 +62,14 @@ div{
 }
 
 ul {
-padding-top: 5%;
-padding-left: 5%;
+	padding-top: 5%;
+	padding-left: 5%;
 }
 
 ul li {
 	list-style: none;
 	display: inline-block;
 	float: left;
-	font-family: 'roboto', sans-serif;
 	font-variant: thin;
 	font-size: 25px;
 	font-weight: 5;
