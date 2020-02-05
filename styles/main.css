@@ -85,3 +85,8 @@ ul li a {
 ul li a:hover {
 	font-variant: bold;
 }
+
+.headshot {
+	border: 2px solid black;
+	max-width: 300px;
+}
