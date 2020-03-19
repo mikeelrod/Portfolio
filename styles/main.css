@@ -1,26 +1,24 @@
 body {
 	font-family: 'roboto', sans-serif;
 	font-variant: light;
+	background-color: #fbfbfb;
 }
 
 h1 {
 	text-align: left;
-	font-variant: medium;
-	font-size: 75px;
-	font-weight: 50;
-	padding-left: 5%;
-	padding-top: 5%;
-	padding-bottom: 0%;
-	line-height: .5;
+	font-size: 45px;
+	font-weight: 10;
+	padding-top: 0px;
+	padding-left: 70px;
+	line-height: 0;
 }
 
 h2 {
 	text-align: left;
-	font-size: 45px;
-	font-weight: 10;
-	padding-top: 0%;
-	padding-left: 5%;
-	line-height: 0;
+	font-size: 25px;
+	font-weight: 5;
+	padding-top: 30px;
+	padding-left: 70px;
 }
 
 h3{
@@ -28,27 +26,27 @@ h3{
 	text-align: left;
 	font-size: 25px;
 	font-weight: 5;
-	padding-top: 5%;
-	padding-left: 5%;
+	padding-top: 30px;
+	padding-left: 70px;
 }
 
 h4{
 
 	text-align: right;
-	font size 12px;
-	font-weight 10;
+	font size: 12px;
+	font-weight: 10px;
 	font-kerning: 25px;
-	padding-top: 2%;
-	padding-right: 2%;
+	padding-top: 30px;
+	padding-right: 20px;
 }
 
 p {
 	text-align: left;
-	font-variant: regular;
+	font-variant: "regular";
 	font-size: 25px;
 	font-weight: 5;
-	padding-top: 5%;
-	padding-left: 5%;
+	padding-top: 30px;
+	padding-left: 70px;
 	max-width: 50%;
 }
 
@@ -57,13 +55,13 @@ div{
 	align-content: left;
 	font-size: 25px;
 	font-weight: 5;
-	padding-top: 5%;
-	padding-left: 5%;
+	padding-top: 30px;
+	padding-left: 70px;
 }
 
 ul {
-	padding-top: 5%;
-	padding-left: 5%;
+	padding-top: 30px;
+	padding-left: 70px;
 }
 
 ul li {
@@ -89,4 +87,49 @@ ul li a:hover {
 .headshot {
 	border: 2px solid black;
 	max-width: 300px;
+}
+
+header {
+	background-color: #fbfbfb;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+
+nav {
+	  display: inline-block;
+    width: 50%;   
+}
+
+.navname {
+	text-align: left;
+	font-variant: medium;
+	font-size: 75px;
+	font-weight: 50;
+	line-height: .5;
+}
+
+a:hover {
+	opacity: .7;
+}
+
+
+.navname a {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+.home-main {
+	padding-top:100px;
+	width:400px;
+	text-align: center;
+}
+
+.page-title {
+	  margin-top: 100px;
+    width: 400px;
+    text-align: center;
+    margin-left: 50px;
+    display: inline-block;
 }
